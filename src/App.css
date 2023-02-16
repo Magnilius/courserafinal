@@ -28,6 +28,134 @@
   color: #61dafb;
 }
 
+nav {
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+nav ul li {
+  display: inline;
+  margin: 1rem;
+}
+
+nav img {
+  max-width: 2rem;
+  max-height: 2rem;
+  margin-right: 2rem;
+}
+
+nav ul li a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.coloredRow{
+  width: 100%;
+  background-color: #495E57;
+  min-height: 20rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.OneTwoGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  align-items: center;
+  justify-items: center;
+  }
+
+.OneThreeGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  align-items: center;
+  justify-items: center;
+}
+
+.OneFourGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  align-items: center;
+  justify-items: center;
+}
+
+.YellowText {
+  color: #F4CE14;
+}
+
+
+.LemonButtonPrimary {
+  border-radius: 16px;
+  min-height: 55px;
+  min-width: 250px;
+  background-color: #F4CE14;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.LemonButtonPrimary:hover {
+  background-color: white;
+  color: #F4CE14;
+}
+
+.ImgSizeOne {
+  max-height: 25rem;
+  max-width: 25rem;
+  border-radius: 16px;
+}
+
+p {
+  font-weight: 500;
+}
+
+.FoodCard {
+  border-radius: 16px;
+  max-width: 20rem;
+  background-color: #EEEEEE;
+}
+
+.FoodCard img {
+  max-width: 20rem;
+  max-height: 20rem;
+  border-radius: 16px;
+}
+
+.FoodCard .FoodTexts {
+  padding: 1rem;
+}
+
+.FooterImg img {
+  max-width: 10rem;
+  max-height: 10rem;
+}
+
+.FoodTexts {
+  max-width: 20rem;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
